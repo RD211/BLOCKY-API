@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Soon to be replaced by implementation in BlockFunctionCall">
+    <Position X="2.337" Y="5.596" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="BlockyAPI.BLOCKY.Block">
+    <Position X="10" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABKCACBAAACAAQAAAAYEAgAAAEBECQCCAAAACBAAA=</HashCode>
+      <FileName>BLOCKY\Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockyAPI.BLOCKY.Operation_Blocks.BlockOperation">
+    <Position X="10.5" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCAACBAAAAAAAAAAAAEAgAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>BLOCKY\BlockOperation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockyAPI.BLOCKY.BlockFunctionCall">
+    <Position X="4.5" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCAACBAAAAAAAAAAAAEAgAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>BLOCKY\BlockFunctionCall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockyAPI.BLOCKY.BlockVariable">
+    <Position X="7.5" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCCACBAAAAAAAAgAAAEAgAAAEACCAAAAAAAAAAAA=</HashCode>
+      <FileName>BLOCKY\Variable Blocks\BlockVariable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockyAPI.BLOCKY.BlockInteger">
+    <Position X="5.5" Y="11" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>BLOCKY\Variable Blocks\BlockInteger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockyAPI.BLOCKY.BlockReal">
+    <Position X="7.75" Y="11" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>BLOCKY\Variable Blocks\BlockReal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockyAPI.BLOCKY.BlockString">
+    <Position X="10.25" Y="11" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>BLOCKY\Variable Blocks\BlockString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockyAPI.BLOCKY.BlockConditional">
+    <Position X="13.25" Y="6.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAABCAACBAAAAAAAAAAAAEAgAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>BLOCKY\BlockConditional.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockyAPI.BLOCKY.Function_Blocks.BlockMainFunction">
+    <Position X="16.25" Y="6.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAABCAACBAAAAAAAAAAgAEAgAAAAAACAACQAAAAAAAA=</HashCode>
+      <FileName>BLOCKY\BlockMainFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockyAPI.BLOCKY.BlockOutput">
+    <Position X="2" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABCAACBAAAAAAAAAAAAEAgAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>BLOCKY\Output Blocks - DONE 1\BlockOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockyAPI.BLOCKY.BlockException">
+    <Position X="25.25" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BLOCKY\BlockException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockyAPI.BLOCKY.BlockScheme">
+    <Position X="25.25" Y="3.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAhAAAEAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>BLOCKY\BlockScheme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockyAPI.BLOCKY.BlockyHelpers">
+    <Position X="25.25" Y="0.5" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="BlockyAPI.BLOCKY.BlockyHelpers.BlockReturnType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BLOCKY\BlockyHelpers.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="BlockyAPI.BLOCKY.BlockyHelpers.BlockCategoryType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BLOCKY\BlockyHelpers.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="BlockyAPI.BLOCKY.BlockyHelpers.BlockMathType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BLOCKY\BlockyHelpers.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="BlockyAPI.BLOCKY.BlockyHelpers.BlockConditionalType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BLOCKY\BlockyHelpers.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="BlockyAPI.BLOCKY.BlockyHelpers.BlockOperationType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BLOCKY\BlockyHelpers.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="BlockyAPI.BLOCKY.BlockyHelpers.BlockInputOutputType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BLOCKY\BlockyHelpers.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAIAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAGAAAEAAAA=</HashCode>
+      <FileName>BLOCKY\BlockyHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockyAPI.BLOCKY.MainBlockSpace">
+    <Position X="19.5" Y="6.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAABCAASBAAAAAAAAgAgAEAgAAAAAACAAAAAAAAEAAA=</HashCode>
+      <FileName>BLOCKY\MainBlockSpace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockyAPI.BLOCKY.BlockyInterface">
+    <Position X="25.25" Y="7.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAABgAAAAAAgAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>BLOCKY\BlockyInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
